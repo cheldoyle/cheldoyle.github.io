@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="topBar row" id="topSite">
+            <div class="profilePic">
+                <img src="./media/proPic.png" alt="" onclick="enterSite();">
+            </div>
+            <div class="myInfo" id="myInfo">
+                <p>Chel | 04/21/91 | Fullstack Developer</p>
+                <p>228 - 257 - 0526 | chel.doyle@mscoding.org</p>
+                <p>GitHub | LinkedIn | X</p>
+            </div>
+            <div class="pageNav" id="pageNav">
+                <button class="aboutNav" id="aboutSec" onclick="viewAbout();">About</button>
+                <button class="empty"></button>
+                <button class="projNav" id="proSec" onclick="viewPros();">Projects</button>
+            </div>
+            <div class="invisbar"></div>
+        </div>
+        <div class="about pageWrap row" id="aboutID">
+            <div class="buttWrapper col-12">
+                <button class="backButt" id="backButtAbout" onclick="viewBackAbout();">&#129153;</button>
+            </div>
+            <h1 class="col-12 abtTitle pageTitle">ABOUT</h1>
+            <div class="col-md-2"></div>
+            <div class="leftAbout col-12 col-md-4">
+                <p>Junior coder at Mississippi Coding Academy and student of Cybersecurity at Champlain College. </p>
+            </div>
+            <div class="rightAbout col-12 col-md-6">
+                <div class="langs col-12 col-md-6">
+                    <h2>Languages</h2>
+                    <p>HTML | CSS | JavaScript | C#</p>
+                </div>
+                <div class="frames col-12 col-md-6">
+                    <h2>Frameworks</h2>
+                    <p>Bootstrap</p>
+                </div>
+            </div>
+        </div>
+        <div class="projects pageWrap row" id="projectsID">
+            <div class="buttWrapper col-12">
+                <button class="backButt" id="backButtPro" onclick="viewBackPro();">&#129153;</button>
+            </div>
+            <h1 class="col-12 proTitle pageTitle">PROJECTS</h1>
+            <div class="frontEnd col-12 col-md-6">
+                <h2>Frontend Projects</h2>
+                <button>AIRBOX</button>
+                <button>Detroix</button>
+                <button>Bloom</button>
+            </div>
+            <div class="backEnd col-12 col-md-6">
+                <h2>Backend Projects</h2>
+                <button>Kiosk</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
