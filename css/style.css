@@ -46,11 +46,9 @@ body {
 }
 .profilePic {
     text-align: center;
-    margin-bottom: 0;
 }
 .profilePic img {
-    margin-top: 3%;
-    margin-bottom: 0;
+    margin-bottom: 3%;
 }
 .myInfo {
     text-align: center;
@@ -60,12 +58,10 @@ body {
     font-size: large;
     color: white;
     line-height: .4;
-    visibility: hidden;
-    margin-top: 100%;
+    margin-bottom: 3%;
 }
 .pageNav {
     text-align: center;
-    margin-top: 100%;
 }
 .aboutNav {
     background-color: white;
@@ -145,6 +141,19 @@ body {
     background: none;
     font-size: 66px;
 }
+
+.rotate-down {
+    animation: rotateArrow 0.3s forwards;
+}
+@keyframes rotateArrow {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
 @media (min-width: 768px) {
     .pageTitle {
         font-size: 76px;
