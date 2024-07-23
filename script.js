@@ -41,4 +41,53 @@ function viewBackPro() {
   document.getElementById('topSite').style.visibility = 'visible'
   document.getElementById('topSite').style.marginBottom = '0'
   document.getElementById('backButtPro').classList.toggle('rotate-down')
+
+}
+function viewAirBox() {
+  document.getElementById('textInfo').classList.remove('hidden')
+  document.getElementById('miniTitle').innerHTML = "AIRBOX"
+  document.getElementById('projText').innerHTML = "Info about AirBox project"
+  document.getElementById('viewPage').innerHTML = "View Page"
+  document.getElementById('viewCode').innerHTML = "View Code"
+  document.getElementById('viewPage').href = "https://www.google.com"
+  document.getElementById('viewCode').href = "https://www.google.com"
+}
+
+function viewDetroix() {
+  document.getElementById('textInfo').classList.remove('hidden')
+  document.getElementById('miniTitle').innerHTML = "Detroix"
+  document.getElementById('projText').innerHTML = "Info about Detroix project"
+  document.getElementById('viewPage').innerHTML = "View Page"
+  document.getElementById('viewCode').innerHTML = "View Code"
+  document.getElementById('viewPage').href = "https://www.google.com"
+  document.getElementById('viewCode').href = "https://www.google.com"
+}
+
+function viewBloom() {
+  document.getElementById('textInfo').classList.remove('hidden')
+  document.getElementById('miniTitle').innerHTML = "Bloom"
+  document.getElementById('projText').innerHTML = "Info about Bloom project"
+  document.getElementById('viewPage').innerHTML = "View Page"
+  document.getElementById('viewCode').innerHTML = "View Code"
+  document.getElementById('viewPage').href = "https://www.google.com"
+  document.getElementById('viewCode').href = "https://www.google.com"
+  
+}
+
+function viewKiosk() {
+  document.getElementById('textInfo').classList.remove('hidden')
+  document.getElementById('miniTitle').innerHTML = "Kiosk"
+  document.getElementById('projText').innerHTML = "Info about Kiosk project"
+  document.getElementById('viewPage').innerHTML = "View Page"
+  document.getElementById('viewCode').innerHTML = "View Code"
+  document.getElementById('viewPage').href = "https://www.google.com"
+  document.getElementById('viewCode').href = "https://www.google.com"
+  
+}
+function hideContent() {
+  document.getElementById('textInfo').classList.add('hidden')
+  document.getElementById('miniTitle').innerHTML = ""
+  document.getElementById('projText').innerHTML = ""
+  document.getElementById('viewPage').innerHTML = ""
+  document.getElementById('viewCode').innerHTML = ""
 }

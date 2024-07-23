@@ -106,29 +106,29 @@ body {
 }
 .abtTitle {
     font-family: "Playwrite DE Grund", cursive;
-    font-optical-sizing: auto;
+    font-size: 5vmax;
     font-weight: 100;
     font-style: normal;
 }
 .proTitle {
     font-family: "Playwrite DE Grund", cursive;
-    font-optical-sizing: auto;
+    font-size: 5vmax;
     font-weight: 100;
     font-style: normal;
 }
 .leftAbout {
     text-align: center;
+    align-content: center;
 }
 .rightAbout {
     text-align: center;
+    align-content: center;
 }
 .frontEnd {
-    border: 1px black solid;
-    margin-top: 0;
+    margin: 0;
 }
 .backEnd {
-    border: 1px black solid;
-    margin-top: 0;
+    margin: 0;
 }
 .buttWrapper {
     text-align: center;
@@ -141,7 +141,24 @@ body {
     background: none;
     font-size: 66px;
 }
-
+.textInfo {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.hideContent {
+    text-align: right;
+    font-size: 2vmax;
+    font-weight: 900;
+    color: #404040;
+    stroke: black;
+}
+.hideContent:hover {
+    cursor: pointer;
+}
+.hidden {
+    visibility: hidden;
+}
 .rotate-down {
     animation: rotateArrow 0.3s forwards;
 }
@@ -151,11 +168,5 @@ body {
     }
     to {
         transform: rotate(180deg);
-    }
-}
-
-@media (min-width: 768px) {
-    .pageTitle {
-        font-size: 76px;
     }
 }
