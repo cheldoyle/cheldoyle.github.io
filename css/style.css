@@ -4,6 +4,24 @@ html {
 body {
     overflow-x: hidden;
 }
+.spaceSection iframe {
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    width: 97%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+}
+.spaceSection img {
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+}
 .topBar {
     background-image: url("https://img1.picmix.com/output/stamp/normal/3/0/3/6/2476303_df879.gif");
     background-color: black;
@@ -59,9 +77,11 @@ body {
     color: white;
     line-height: .4;
     margin-bottom: 3%;
+    z-index: 1;
 }
 .pageNav {
     text-align: center;
+    z-index: 1;
 }
 .aboutNav {
     background-color: white;
@@ -147,12 +167,35 @@ body {
     background: none;
     font-size: 66px;
 }
+.projectPic img {
+    height: 200px;
+    object-fit: cover;
+}
+.projectPic img:hover {
+    cursor: pointer;
+}
+.airBoxInfo img:hover {
+    transition: 2s;
+    content: url('https://i.imgur.com/fy1r9An.gif');
+}
+.detroixInfo img:hover {
+    transition: 1s;
+    content: url('https://i.imgur.com/5oqVKsc.gif');
+}
+.bloomInfo img:hover {
+    transition: 1s;
+    content: url('https://i.imgur.com/5oqVKsc.gif');
+}
+.kioskInfo img:hover {
+    transition: 1s;
+    content: url('https://i.imgur.com/5oqVKsc.gif');
+}
 .textInfo {
     position: absolute;
-    border: 2px black inset;
+    border: 4px black solid;
     margin: 0;
     padding: 0;
-    width: max-content;
+    width: fit-content;
     align-items: center;
     align-self: center;
     align-content: center;
@@ -165,14 +208,16 @@ body {
     text-align: left;
     align-self: flex-start;
     margin: 0;
-    padding-top: 8%;
-    padding-bottom: 4%;
+}
+.links a {
+    color: black;
+    margin: 0;
 }
 .exit {
     text-align: right;
     align-self: flex-start;
     margin: 0;
-    top: 0;
+    margin-top: -2%;
 }
 .hideContent {
     text-align: right;

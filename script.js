@@ -31,6 +31,9 @@ function viewBackAbout() {
   document.getElementById('topSite').style.visibility = 'visible'
   document.getElementById('topSite').style.marginBottom = '0'
   document.getElementById('backButtAbout').classList.toggle('rotate-down')
+  if (!document.getElementById('textInfo').classList.contains('hidden')) {
+    document.getElementById('textInfo').classList.add('hidden')
+  }
 }
 function viewBackPro() {
   document.getElementById('projectsID').style.transition = '3s'
@@ -41,14 +44,14 @@ function viewBackPro() {
   document.getElementById('topSite').style.visibility = 'visible'
   document.getElementById('topSite').style.marginBottom = '0'
   document.getElementById('backButtPro').classList.toggle('rotate-down')
-
+  if (!document.getElementById('textInfo').classList.contains('hidden')) {
+    document.getElementById('textInfo').classList.add('hidden')
+  }
 }
 function viewAirBox() {
   document.getElementById('textInfo').classList.remove('hidden')
   document.getElementById('miniTitle').innerHTML = "AIRBOX"
-  document.getElementById('projText').innerHTML = "Info about AirBox project"
-  document.getElementById('viewPage').innerHTML = "View Page"
-  document.getElementById('viewCode').innerHTML = "View Code"
+  document.getElementById('projText').innerHTML = "Template design for a customer support style company. Uses only HTML and CSS, with Bootstrap for positioning."
   document.getElementById('viewPage').href = "https://www.google.com"
   document.getElementById('viewCode').href = "https://www.google.com"
 }
@@ -56,9 +59,7 @@ function viewAirBox() {
 function viewDetroix() {
   document.getElementById('textInfo').classList.remove('hidden')
   document.getElementById('miniTitle').innerHTML = "Detroix"
-  document.getElementById('projText').innerHTML = "Info about Detroix project"
-  document.getElementById('viewPage').innerHTML = "View Page"
-  document.getElementById('viewCode').innerHTML = "View Code"
+  document.getElementById('projText').innerHTML = "Corporate style website template using HTML and CSS. Makes use of Bootstrap for positioning."
   document.getElementById('viewPage').href = "https://www.google.com"
   document.getElementById('viewCode').href = "https://www.google.com"
 }
@@ -66,9 +67,7 @@ function viewDetroix() {
 function viewBloom() {
   document.getElementById('textInfo').classList.remove('hidden')
   document.getElementById('miniTitle').innerHTML = "Bloom"
-  document.getElementById('projText').innerHTML = "Info about Bloom project"
-  document.getElementById('viewPage').innerHTML = "View Page"
-  document.getElementById('viewCode').innerHTML = "View Code"
+  document.getElementById('projText').innerHTML = "Online shop style web design using HTML and CSS for design, and Bootstrap for positioning."
   document.getElementById('viewPage').href = "https://www.google.com"
   document.getElementById('viewCode').href = "https://www.google.com"
   
@@ -77,9 +76,7 @@ function viewBloom() {
 function viewKiosk() {
   document.getElementById('textInfo').classList.remove('hidden')
   document.getElementById('miniTitle').innerHTML = "Kiosk"
-  document.getElementById('projText').innerHTML = "Info about Kiosk project"
-  document.getElementById('viewPage').innerHTML = "View Page"
-  document.getElementById('viewCode').innerHTML = "View Code"
+  document.getElementById('projText').innerHTML = "C# console-based program that mimics a POS system. Accepts cash and credit, with failure rates and change back in place."
   document.getElementById('viewPage').href = "https://www.google.com"
   document.getElementById('viewCode').href = "https://www.google.com"
   
@@ -88,3 +85,5 @@ function viewKiosk() {
 function hideContent() {
   document.getElementById('textInfo').classList.add('hidden')
 }
+
+

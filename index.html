@@ -20,11 +20,14 @@
 <body onload="enterSite();" >
     <div class="container-fluid">
         <div class="topBar row" id="topSite">
+            <div class="spaceSection">
+                <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://slowe.github.io/VirtualSky/embed?&gradient=false&projection=stereo&meteorshowers=true&showstarlabels=true&live=true&az=77.86419270527188" allowTransparency="true"></iframe>-->
+            </div>
             <div class="profilePic">
                 <img src="./media/proPic.png" alt="">
             </div>
             <div class="myInfo" id="myInfo">
-                <p>Chel | 04/21/91 | Fullstack Developer</p>
+                <p>Chel | 04/21/91 | Full Stack Developer</p>
                 <p>228 - 257 - 0526 | chel.doyle@mscoding.org</p>
                 <p>GitHub | LinkedIn | X</p>
             </div>
@@ -63,20 +66,20 @@
             <div class="projectInfo row">
                 <div class="frontEnd row col-12 col-md-5" id="frontEnd">
                     <h2>Frontend Projects</h2>
-                    <div class="airBoxInfo col-4" id="airBox">
-                        <img src="https://placehold.co/150x200" alt="" id="airImg" class="img-fluid" onclick="viewAirBox();">
+                    <div class="airBoxInfo projectPic col-4" id="airBox">
+                        <img src="./media/airBoxImg.png" alt="" id="airImg" class="img-fluid" onclick="viewAirBox();">
                     </div>
-                    <div class="detroixInfo col-4" id="detroix">
+                    <div class="detroixInfo projectPic col-4" id="detroix">
                         <img src="https://placehold.co/150x200" alt="" id="detroixImg" class="img-fluid" onclick="viewDetroix();">
                     </div>
-                    <div class="bloomInfo col-4" id="bloom">
+                    <div class="bloomInfo projectPic col-4" id="bloom">
                         <img src="https://placehold.co/150x200" alt="" id="bloomImg" class="img-fluid" onclick="viewBloom();">
                     </div>
                 </div>
                 <div class="col-md-2"></div>
                 <div class="backEnd row col-12 col-md-5" id="backEnd">
                     <h2>Backend Projects</h2>
-                    <div class="kioskInfo col-4" id="kiosk">
+                    <div class="kioskInfo projectPic col-4" id="kiosk">
                         <img src="https://placehold.co/150x200" alt="" id="kioskImg" class="img-fluid" onclick="viewKiosk();">
                     </div>
                     <div class="hidden otherInfo col-4" id="kiosk">
@@ -89,15 +92,15 @@
             </div>
             <div class="textInfo hidden row" id="textInfo">
                 <div class="info col-10">
-                    <h4 class="miniTitle col-10" id="miniTitle"></h4>
-                    <p class="projText col-12" id="projText"></p>
-                    <div class="links col-12">
-                        <a href="" class="col-6" id="viewPage"></a>
-                        <a href="" class="col-6" id="viewCode"></a>
+                    <h4 class="miniTitle" id="miniTitle"></h4>
+                    <p class="projText" id="projText"></p>
+                    <div class="links">
+                        <a href="" class="col-6" id="viewPage">View Page</a>
+                        <a href="" class="col-6" id="viewCode">View Code</a>
                     </div>
                 </div>
                 <div class="exit col-2">
-                    <p class="hideContent col-2" id="hideContent" onclick="hideContent();">x</p>
+                    <p class="hideContent" id="hideContent" onclick="hideContent();">x</p>
                 </div>
             </div>
         </div>
