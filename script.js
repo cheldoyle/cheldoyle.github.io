@@ -84,10 +84,7 @@ function viewKiosk() {
   document.getElementById('viewCode').href = "https://www.google.com"
   
 }
+
 function hideContent() {
   document.getElementById('textInfo').classList.add('hidden')
-  document.getElementById('miniTitle').innerHTML = ""
-  document.getElementById('projText').innerHTML = ""
-  document.getElementById('viewPage').innerHTML = ""
-  document.getElementById('viewCode').innerHTML = ""
 }
