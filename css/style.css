@@ -176,19 +176,19 @@ body {
 }
 .airBoxInfo img:hover {
     transition: 2s;
-    content: url('https://i.imgur.com/fy1r9An.gif');
+    content: url('../media/airboxGif.gif');
 }
 .detroixInfo img:hover {
     transition: 1s;
-    content: url('https://i.imgur.com/5oqVKsc.gif');
+    content: url('../media/detroixGif.gif');
 }
 .bloomInfo img:hover {
     transition: 1s;
-    content: url('https://i.imgur.com/5oqVKsc.gif');
+    content: url('../media/bloomGif.gif');
 }
 .kioskInfo img:hover {
     transition: 1s;
-    content: url('https://i.imgur.com/5oqVKsc.gif');
+    content: url('../media/kioskGif.gif');
 }
 .textInfo {
     position: absolute;
