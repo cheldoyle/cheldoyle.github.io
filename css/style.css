@@ -242,3 +242,31 @@ body {
         transform: rotate(180deg);
     }
 }
+@media (max-width: 431px) {
+    .aboutNav {
+        transition: 1s;
+        background-color: white;
+        border: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 150px;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: 'Courier New', monospace;
+    }
+    .projNav {
+        transition: 1s;
+        background-color: white;
+        border: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 150px;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: 'Courier New', monospace;
+    }
+}
