@@ -54,6 +54,7 @@ function viewAirBox() {
   document.getElementById('projText').innerHTML = "Template design for a customer support style company. Uses only HTML and CSS, with Bootstrap for positioning."
   document.getElementById('viewPage').href = "https://www.google.com"
   document.getElementById('viewCode').href = "https://www.google.com"
+  document.getElementById('viewPage').innerHTML = "View Page"
 }
 
 function viewDetroix() {
@@ -62,6 +63,7 @@ function viewDetroix() {
   document.getElementById('projText').innerHTML = "Corporate style website template using HTML and CSS. Makes use of Bootstrap for positioning."
   document.getElementById('viewPage').href = "https://www.google.com"
   document.getElementById('viewCode').href = "https://www.google.com"
+  document.getElementById('viewPage').innerHTML = "View Page"
 }
 
 function viewBloom() {
@@ -70,7 +72,7 @@ function viewBloom() {
   document.getElementById('projText').innerHTML = "Online shop style web design using HTML and CSS for design, and Bootstrap for positioning."
   document.getElementById('viewPage').href = "https://www.google.com"
   document.getElementById('viewCode').href = "https://www.google.com"
-  
+  document.getElementById('viewPage').innerHTML = "View Page"
 }
 
 function viewKiosk() {
@@ -79,7 +81,7 @@ function viewKiosk() {
   document.getElementById('projText').innerHTML = "C# console-based program that mimics a POS system. Accepts cash and credit, with failure rates and change back in place."
   document.getElementById('viewPage').href = "https://www.google.com"
   document.getElementById('viewCode').href = "https://www.google.com"
-  
+  document.getElementById('viewPage').innerHTML = ""
 }
 
 function hideContent() {
