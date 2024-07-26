@@ -13,15 +13,6 @@ body {
     margin: 0;
     padding: 0;
 }
-.spaceSection img {
-    position: absolute;
-    z-index: 0;
-    left: 50%;
-    bottom: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    padding: 0;
-}
 .topBar {
     background-image: url("https://img1.picmix.com/output/stamp/normal/3/0/3/6/2476303_df879.gif");
     background-color: black;
@@ -78,6 +69,14 @@ body {
     line-height: .4;
     margin-bottom: 3%;
     z-index: 1;
+}
+.outsideNav p {
+    display: inline;
+}
+.outsideNav a {
+    display: inline;
+    color: white;
+    text-decoration: none;
 }
 .pageNav {
     text-align: center;
